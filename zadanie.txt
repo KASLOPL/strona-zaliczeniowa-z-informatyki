@@ -1,0 +1,41 @@
+definicja pętli
+
+modyfikujemy przykład 21
+tak aby wykonało się zadanie 27 ze strony 95 instrukcja CPP
+teraz 2 linki [ poprawny opis linków-->Z27 kod oraz Z27 zrzut ekranu]
+po prawej stronie (kod oraz rzut[z nazwiskiem])
+
+
+
+
+wykonujemy zadanie 28 ze strony 95 instrukcja CPP
+teraz 2 linki [ poprawny opis linków-->Z28 kod oraz Z28 zrzut ekranu]
+po prawej stronie (kod oraz rzut[z nazwiskiem])
+
+
+
+To wszystko z tych zajęć. Całość instalujemy na GitHubie.
+Wysyłamy link( link taki aby otworzyć stronę) do Karola Junga do niedzieli 9.01 do 18.00
+Karol wykona stronę HTML z nazwiskami uczniów i obok link do GitHuba
+i prześle do 10.01 do g.18 na mkryniew@wp.pl
+
+
+
+
+
+
+
+
+
+[09:17] Marek Kryniewski
+modyfikujemy przykład 21
+tak aby wykonało się zadanie 27 ze strony 95 instrukcja CPP
+teraz 2 linki [ poprawny opis linków-->Z27 kod oraz Z27 zrzut ekranu]
+po prawej stronie (kod oraz rzut[z nazwiskiem])
+wykonujemy zadanie 28 ze strony 95 instrukcja CPP
+teraz 2 linki [ poprawny opis linków-->Z28 kod oraz Z28 zrzut ekranu]
+po prawej stronie (kod oraz rzut[z nazwiskiem])To wszystko z tych zajęć. Całość instalujemy na GitHubie.
+Wysyłamy link( link taki aby otworzyć stronę) do Karola Junga do niedzieli 9.01 do 18.00
+Karol wykona stronę HTML z nazwiskami uczniów i obok link do GitHuba
+i prześle do 10.01 do g.18 na mkryniew@wp.pl
+
