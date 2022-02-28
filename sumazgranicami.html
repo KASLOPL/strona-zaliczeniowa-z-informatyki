@@ -1,0 +1,28 @@
+#include <cstdlib><br>
+#include <iostream><br>
+<br>
+using namespace std;<br>
+<br>
+int main(int argc, char *argv[])<br>
+{<br>
+// Napisz program, który po wczytaniu dwóch liczb dol_trzy_litery i gora_trzy_litery Obliczy sumę liczb między tymi liczbami.<br>
+// wszystkie zmienne z trzema literami nazwiska<br>
+system("chcp 1250");<br>
+int gora_boj;<br>
+cout<<"podaj górną granicę obliczania sumy=";<br>
+cin>>gora_boj;<br>
+int dol_boj;<br>
+cout<<"podaj dolną granicę obliczania sumy=";<br>
+cin>>dol_boj;<br>
+// zadeklaruj oraz dodaj dolną granicę obliczania sumy<br>
+// dol_kow dodaj w pętli<br>
+int suma_boj=0;<br>
+for(int dzialanie=gora_boj;dzialanie<=dol_boj;dzialanie++)<br>
+{<br>
+suma_boj+=dzialanie;<br>
+}<br>
+cout<<"suma="<<suma_boj<<endl;<br>
+system("PAUSE");<br>
+return EXIT_SUCCESS;<br>
+}<br>
+

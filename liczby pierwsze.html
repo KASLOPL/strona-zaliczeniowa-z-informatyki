@@ -1,0 +1,49 @@
+#include <cstdlib><br>
+#include <iostream><br>
+#include <math.h><br>
+using namespace std;<br>
+int main(int argc, char *argv[])<br>
+{<br>
+//Wczytać dwie liczby sprawdzić czy są pierwsze. Jeśli są podać ich sumę na ekranie. Sprawdzić czy ta suma jest parzysta."<br>
+ cout<<"podaj liczbe naturalna, ktora sprawdze czy jest pierwsza=";<br>
+ int pierwsza_boj;<br>
+ int suma_boj;<br>
+ int k=0;<br>
+ cin>>pierwsza_boj;<br>
+ cout<<"podaj druga liczbe naturalna, ktora sprawdze czy jest pierwsza=";<br>
+ int druga_boj;<br>
+ int n=0;<br>
+ cin>>druga_boj;<br>
+ for(int i=2;i<=sqrt(pierwsza_boj);++i)<br>
+ for(int i=2;i<=sqrt(druga_boj);++i)<br>
+ {<br>
+if ((pierwsza_boj) % i==0)<br>
+if ((druga_boj) % i==0)<br>
+{<br>
+k=1;<br>
+n=1;<br>
+cout<<"liczba "<<pierwsza_boj<<" to nie jest liczba pierwsza jest podzielna przez "<br>
+<<i<<","<<druga_boj<<"tez nie jest pierwsza jest podzielna przez"<<i<<"\n";<br>
+ }<br>
+ }<br>
+ {<br>
+ if ( k==0);<br>
+ if ( n==0);<br>
+ suma_boj=(pierwsza_boj+druga_boj);<br>
+ if (suma_boj%2==0)<br>
+ {<br>
+ cout<<"liczba "<<pierwsza_boj<<" to jest liczba pierwsza,"<<druga_boj<<"  tez jest liczba pierwsza, ich suma wynosi"<<suma_boj<<",jest parzysta"<<"\n";<br>
+}<br>
+}<br>
+{<br>
+if ( k==0);<br>
+if ( n==0);<br>
+suma_boj=(pierwsza_boj+druga_boj);<br>
+if (suma_boj%2==1)<br>
+ {<br>
+cout<<"liczba "<<pierwsza_boj<<" to jest liczba pierwsza,"<<druga_boj<<"  tez jest liczba pierwsza, ich suma wynosi"<<suma_boj<<",jest nieparzysta"<<"\n";<br>
+}<br>
+}<br>
+ system("PAUSE");<br>
+ return EXIT_SUCCESS;<br>
+}<br>

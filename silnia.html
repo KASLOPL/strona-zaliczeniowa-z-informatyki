@@ -1,0 +1,37 @@
+#include <cstdlib><br>
+#include <iostream><br>
+int main() {<br>
+//Obliczanie silni.<br>
+//oznaczamy n! (jest użyty wykrzyknik)<br>
+//Jest to iloczyn liczb od 1 do n ale 0!=1<br>
+<br>
+//np. 5!=1*2*3*4*5 i wynik 5!=120<br>
+<br>
+//zmienne z trzema literami np. n_kow oraz silnia_kow<br>
+<br>
+//Program pyta się o liczbę n=<br>
+//i wynikiem programu będzie taki efekt na ekranie<br>
+<br>
+//n=6<br>
+//6!=720<br>
+<br>
+//Wskazówka:<br>
+<br>
+//gdy n=0 to nie wchodzimy do pętli tylko robimy przypisanie silnia_kow=1 i wyprowadzamy na ekran wynik w odpowiednie formie<br>
+//gdy n>0 to wtedy pętla w odpowiednich granicach.<br>
+int i;<br>
+int n_boj;<br>
+int silnia_boj=1;<br>
+std::cout<<"n:";<br>
+std::cin>>n_boj;<br>
+for(i=1; i<=n_boj; i++)<br>
+{<br>
+silnia_boj=silnia_boj*i;<br>
+}<br>
+std::cout<<n_boj<<"!="<<silnia_boj;<br>
+<br>
+system("PAUSE");<br>
+return EXIT_SUCCESS;<br>
+} <br>
+
+
