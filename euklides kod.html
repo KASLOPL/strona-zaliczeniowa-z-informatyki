@@ -1,0 +1,50 @@
+#include <cstdlib><br>
+#include <iostream><br>
+<br>
+using namespace std;<br>
+<br>
+int main(int argc, char *argv[])<br>
+{<br>
+    int m,m1,n1,n,r;<br>
+    <br>
+    system("chcp 1250");<br>
+    <br>
+    do <br>
+    { <br>
+    <br>
+    cout<<"n>=m ";<br>
+    cout<<"podaj n:";<br>
+    cin>>n;<br>
+    cout<<endl;<br>
+    cout<<"podaj m:";<br>
+    cin>>m;<br>
+    cout<<endl;<br>
+    <br>
+    m1=m, n1=n;<br>
+    <br>
+    if(n<m) <br>
+    {<br>
+            cout<<" n musi być >=m";<br>
+    cout<<endl;<br>
+    }<br>
+}<br>
+ while(!(n>=m));<br>
+ <br>
+ do<br>
+{<br>
+r=(n%m), n=m, m=r;<br>
+}<br>
+while(!(m==0));<br>
+
+cout<<"NWD =("<<n1<<","<<m1<<")="<<n<<endl;<br>
+<br>
+<br>
+<br>
+    system("PAUSE");<br>
+    return EXIT_SUCCESS;<br>
+}<br>
+<br>
+<br>
+//algorytm euklidesa:<br>
+//krok 1: Jeśli m=0, to n jest szukaną liczbo i koniec algorytmu<br>
+//krok 2: r=(n%m), n=m m=r. GOTO krok 1<br>
